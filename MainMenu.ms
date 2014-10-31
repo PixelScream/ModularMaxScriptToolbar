@@ -43,9 +43,9 @@ rollout modularMenu "Modular Menu" width:menuWidth height:menuHeight
 	ImgTag mainLogo "" pos:[0,0] bitmap:(BitMap menuWidth 20)
 	checkbutton chbShowA "cat a" pos:[32,32] width:53 height:21 checked:true across:2
 	checkbutton chbShowB "cat b" pos:[88,32] width:53 height:21 checked:false
-	subRollout roSubA "" pos:[0,56] width:menuWidth height:(menuHeight - 50)
-	subRollout roSubB "" pos:[0,56] width:menuWidth height:(menuHeight - 50) visible:false
-	button prefsbtn "Preferences" pos:[160,32] width:22 height:20 images:#("source/Images/Pref_Icons.bmp", "undefined", 2, 1, 2, 1, 1)
+	subRollout roSubA "" pos:[0,56] width:(menuWidth - 4) height:(menuHeight - 50)
+	subRollout roSubB "" pos:[0,56] width:(menuWidth - 4) height:(menuHeight - 50) visible:false
+	button prefsbtn "Preferences" pos:[150,32] width:22 height:20 images:#("source/Images/Pref_Icons.bmp", "undefined", 2, 1, 2, 1, 1)
 	--- Functions
 	fn repositionUI =
 	(
