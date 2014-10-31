@@ -1,12 +1,39 @@
-GenTools
+Modular Maxscript Toolbar
 ==================================================
+Just a simple maxscript set up which will allow for modular toolbar creation.
+Tried to focus it on simplicity and do as much as it can with as little as possible.
 
-A 3Ds Max toolbar of common actions
+I seem to make a douzen or so simple tools atleast with ever new project, 
+so it just made sense to try and make an environment for easy mantainance
+and scalability.
 
-Yes it's an intentionally blank window at the moment toolbar at the moment.
-Just developing the responsive layout and structure before overhauling and rewriting the tools which go in it
+Just make a rollout file in the modules folder and when you load the toolbar 
+it'll be there!
 
-Tools
+
+Use
 =======
+- git clone or download the zip
+- run 3Ds Max
+- drag the mainMenu.ms into your max window
+- it should appear
 
-'Just dumped the old tools in the new UI which all need to be scrapped as most of it’s from when I was first starting MXS, for example the very first thing I wrote is in there and is barely functional at best.'
+If/when you want to add your own tools:
+- make a new maxscript file in the modules folder
+- create a rollout in the file
+(best practice to keep it the same width as the toolbar)
+- save and load up your mainMenu and if you don't get an
+error you should see your new module in the menu
+
+
+Still to come
+=======
+- procedural submenu based on a category variable in the modules
+- responsive UI
+- procedural moduls based on scripts found in the scripts folder
+
+License
+=======
+MIT licensed, so you can do what you want with it, modifier, redistribut, what ever
+credit/linking back is always appriciated :)
+
