@@ -35,7 +35,7 @@ Still to come
 
 License
 =======
-MIT licensed, so you can do what you want with it, modifier, redistribute, what ever
-credit/linking back is always appreciated :)
+MIT licensed, so you can do what you want with it, modifier, redistribute, what ever.
+Attribution isn't required but is always appreciated :)
 
 
